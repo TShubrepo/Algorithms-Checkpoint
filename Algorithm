@@ -1,0 +1,43 @@
+2  
+<!--Nombre de caractères-->
+
+VARIABLES
+3     Chaine1 EST_DU_TYPE CHAINE
+4     Longueur EST_DU_TYPE NOMBRE
+5   DEBUT_ALGORITHME
+6     AFFICHER "Entrez un texte"
+7     LIRE Chaine1
+8     Longueur PREND_LA_VALEUR chaine1.length
+9     AFFICHER "Le nombre de caractère est de "
+10    AFFICHER Chaine1
+11    AFFICHER "est de "
+12    AFFICHER Longueur
+13  FIN_ALGORITHME
+
+<!--Nombre de mots-->
+VARIABLES
+3     n EST_DU_TYPE int
+4     nbr EST_DU_TYPE NOMBRE
+5   DEBUT_ALGORITHME
+6     AFFICHER "Entrez un texte"
+7     LIRE n
+8     nbr PREND_LA_VALEUR number
+9     AFFICHER "Le nombre de caractère est de "
+10    AFFICHER n
+11    AFFICHER "est de "
+12    AFFICHER nbr
+13  FIN_ALGORITHME
+
+
+
+
+<!--Nombre de voyelles-->
+Debut 
+
+    voy := 0;
+    Pour i := 1 à longueur (s) Faire
+    Case s[i] Faire
+    Valeur('a' Ou 'e' Ou 'i' Ou 'u' Ou 'o' Ou 'y') 
+    Faire
+    voy := voy + 1;
+FIN
